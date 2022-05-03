@@ -1,0 +1,30 @@
+{
+  "name": "ape-studios-backend",
+  "version": "1.0.0",
+  "description": "Ape Studios Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit-vrrr/ape-studios-backend.git"
+  },
+  "author": "rohit-vrrr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit-vrrr/ape-studios-backend/issues"
+  },
+  "homepage": "https://github.com/rohit-vrrr/ape-studios-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
